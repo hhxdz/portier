@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #12121C;
+    font-family: Sora;
+}
+.container{
+    border: 3px solid #12121C;
+    ;
+    width: 90%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logoText{
+    font-weight: normal;
+    font-size: 27px;
+    color: white;
+    line-height: 35px;
+}
+.navList{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.link{
+    color: #88888D;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+.active{
+    color: white;
+}
+.headerNav{
+    display: flex;
+}
+.headerButton{
+    background-color: #222233;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    line-height: 16px;
+    padding: 14px 24px;
+    font-weight: bold;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.content1Title{
+    font-weight: bold;
+    font-size: 76px;
+    line-height: 86px;
+    color: white;
+}
+.titleSpan{
+    color: #88888D;
+}
+.titleBlockText{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: normal;
+    max-width: 830px;
+    color: #88888D;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.titleBlockButton{
+    background-color: #006ADA;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 14px 24px;
+}
+.content1TitleBlock{
+    margin-top: 120px;
+}
+.card{
+    width:385px ;
+    height: 205px;
+    background-color: #12121C;
+    border-radius: 8px;
+}
+.content1Cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    flex-wrap: wrap;
+}
+.cardImage{
+    margin: 20px;
+}
+.card:hover{
+    background-color: #222233;
+}
+.cardTitle{
+    font-weight: 600px;
+    color: white;
+    margin-top: 4px;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 20px;
+}
+.cardText{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #88888D;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+.content2card{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-end; 
+    width: 100%; 
+    height: 750px; 
+    border: none; 
+    border-radius: 8px; 
+} 
+.one{ 
+    background-image: url('./work\ cards/Work Card.png'); 
+    margin-top: 240px; 
+} 
+.two{ 
+    background-image: url('./work\ cards/Work Card (1).png'); 
+    margin-top: 80px; 
+} 
+.three{ 
+    background-image: url('./work\ cards/Work Card (2).png'); 
+    margin-top: 80px; 
+} 
+.content2cardButton{  
+    border: none; 
+    border-radius: 8px; 
+    padding: 20px; 
+    font-weight: 600; 
+    font-size: 14px; 
+    line-height: 24px; 
+    margin: 40px; 
+    background-color: #222233; 
+    color: white; 
+    height: 64px; 
+    cursor: pointer; 
+} 
+.arrowIcon{ 
+    margin: 40px; 
+    cursor: pointer; 
+} 
+.dot{ 
+    color: #57EFB4; 
+} 
+.button1{ 
+    width: 430px; 
+} 
+.button2{ 
+    width: 324px; 
+} 
+.button3{ 
+    width: 272px; 
+} 
+.content3Title{ 
+    font-weight: 700; 
+    font-size: 48px; 
+    line-height: 56px; 
+    color: white; 
+    width: 531px; 
+    height: 168px; 
+    margin-top: 272px; 
+} 
+.mainContent3{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 120px; 
+} 
+.content3Image{ 
+    width: 600px; 
+    height: 600px; 
+    margin-top: 120px; 
+} 
+.content3paragraph{ 
+    font-weight: 400; 
+    font-size: 14px; 
+    color: #88888D; 
+    line-height: 24px; 
+    margin-top: 16px; 
+} 
+.content5Title{ 
+    color: white; 
+    font-size: 48px; 
+    line-height: 56px; 
+    font-weight: 700; 
+    width: 646px; 
+    height: 168px; 
+} 
+.percentage{ 
+    font-size: 40px; 
+    font-weight: 700; 
+    width: 92px; 
+    height: 48px; 
+    line-height: 48px; 
+    color: white; 
+    margin-bottom: 16px; 
+} 
+.content5paragraph{ 
+    color: #88888D; 
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 24px; 
+    width: 194px; 
+    height: 48px; 
+} 
+.mainContent5{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 240px; 
+} 
+.content5TextBlock{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+} 
+.content5SecondText{ 
+    margin-left: 32px; 
+    margin-right: 30px; 
+} 
+.content6Title{ 
+    width: 531px; 
+    height: 168px; 
+    font-size: 48px; 
+    line-height: 56px; 
+    font-weight: 700; 
+    color: white; 
+} 
+.content6paragraph{ 
+    width: 531px; 
+    height: 48px; 
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 24px; 
+    color: #88888D; 
+} 
+.content6Image{ 
+    max-width: 50%; 
+} 
+.mainContent6{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 240px; 
+    margin-bottom: 240px; 
+} 
+.content7Title{ 
+    color: white; 
+    font-size: 48px; 
+    font-weight: 700; 
+    line-height: 56px; 
+    width: 508px; 
+    height: 168px; 
+} 
+.content7paragraph{ 
+    width: 530px; 
+    height: 48px; 
+    color: #88888D; 
+    font-weight: 400; 
+    font-size: 14px; 
+    line-height: 24px; 
+} 
+.content7Button{ 
+    width: 145px; 
+    height: 52px; 
+    background-color: #006ADA; 
+    color: white; 
+    padding: 14px 24px; 
+    border: none; 
+    border-radius: 8px; 
+    gap: 10px; 
+    font-size: 16px; 
+    line-height: 24px; 
+    font-weight: 700; 
+    margin-top: 24px; 
+    cursor: pointer; 
+} 
+.mainContent7{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 120px; 
+}
+.footer{
+    background-color: #222233;
+    height: 100%;
+    justify-content: center;
+
+}
+.footerLink{
+    width: 291px;
+    line-height: 24px;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 5px;    
+}
+.footerNav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .container .logoContainer{
+    margin-top: 120px;
+    margin-bottom: 32px;
+}
+.footer .container{
+    border-color: #222233;
+}
+.copy{
+    color: #88888D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 328px;
+}
+.footerLastContainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+.footerIcon{
+    padding: 9px;
+    border-radius: 100%;
+    margin: 0px 12px;
+}
+.footerIcon:hover{
+    background-color: #57EFB4;
+}
+@media (max-width: 1024px){ 
+    .card:last-child{ 
+        margin-top: 35px; 
+    } 
+    .content3Image{ 
+        max-width: 50%; 
+    } 
+    .content3Title{ 
+        max-width:400px; 
+    } 
+    .content3paragraph{ 
+        max-width: 400px; 
+    } 
+    .content3TitleBlock{ 
+        margin-bottom: 150px;  
+    } 
+    .content5Title{ 
+        max-width: 540px; 
+        margin-bottom: 50px; 
+    } 
+    .content5FirstText{ 
+        margin-bottom: 35px; 
+    } 
+    .content6Title{ 
+        max-width: 358px; 
+        margin-bottom: 80px; 
+         
+    } 
+    .content6paragraph{ 
+        max-width: 358px; 
+        margin-top:38px; 
+    } 
+    .content7paragraph{ 
+        max-width: 271px; 
+        margin-bottom: 50px; 
+    } 
+     
+} 
+@media (max-width: 1024px){ 
+    .card{ 
+        margin-top: 35px; 
+    } 
+    .mainContent6{ 
+        flex-direction: column; 
+    } 
+    .mainContent5{ 
+        flex-direction: column; 
+    } 
+    .mainContent7{ 
+        flex-direction: column; 
+    } 
+    .mainContent3{ 
+        flex-direction: column; 
+    } 
+    .content3Image{ 
+        max-width: 100%; 
+    } 
+    .content6Image{ 
+        max-width: 100%; 
+    } 
+    .testimonal{ 
+        max-width: 100%; 
+        max-height: 260px; 
+    } 
+    .content5Title{ 
+        max-width: 100%; 
+        margin-bottom: 48px; 
+    } 
+}
+
