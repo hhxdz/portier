@@ -137,15 +137,15 @@ body{
     border-radius: 8px; 
 } 
 .one{ 
-    background-image: url('./work\ cards/Work Card.png'); 
+    background-image: url('./images/Work Card.png'); 
     margin-top: 240px; 
 } 
 .two{ 
-    background-image: url('./work\ cards/Work Card (1).png'); 
+    background-image: url('./images/Work Card (1).png'); 
     margin-top: 80px; 
 } 
 .three{ 
-    background-image: url('./work\ cards/Work Card (2).png'); 
+    background-image: url('./images/Work Card (2).png'); 
     margin-top: 80px; 
 } 
 .content2cardButton{  
