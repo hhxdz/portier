@@ -11,4 +11,3 @@ This project was developed by:
 ### What was done:
 - Layout
 - Stylization
-- Adaptation for any device
